@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center" style={{ backgroundImage: 'url("/images/hero-bg.jpg")' }}>
-      
+    <section
+      className="relative bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center"
+      style={{ backgroundImage: 'url("/images/hero-bg.jpg")' }}
+    >
       {/* Overlay */}
       <div className="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
 
@@ -13,7 +15,8 @@ const Hero: React.FC = () => {
           New arrivals are here
         </h1>
         <p className="mt-4 text-lg  md:text-xl">
-          The new arrivals have, newly arrived. Checkout the latest option from our summer small-batch release while they're still in stock!
+          The new arrivals have, newly arrived. Checkout the latest option from
+          our summer small-batch release while they're still in stock!
         </p>
         <div className="mt-8">
           <a
