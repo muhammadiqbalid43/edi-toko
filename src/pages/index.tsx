@@ -1,4 +1,5 @@
 import Footer from "@/components/footer";
+import Category from "@/components/category";
 import localFont from "next/font/local";
 
 const geistSans = localFont({
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <div>
       <h1>Hello world</h1>
+      <Category />
       <Footer />
     </div>
   );
