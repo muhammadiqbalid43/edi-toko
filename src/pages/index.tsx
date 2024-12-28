@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 import Category from "@/components/category";
 import Footer from "@/components/footer";
 
-import { Navbar } from "@/component/Navbar/navbar";
+import { Navbar } from "@/component/navbar";
 
 export default function Home() {
   return (
