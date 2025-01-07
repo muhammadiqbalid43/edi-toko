@@ -51,7 +51,11 @@ function Category() {
               key={item.id}
               className={`bg-white w-1/5  h-48 lg:h-72 xl:h-80 rounded-lg  relative overflow-hidden`}
             >
-              <img src={item.image} alt={item.title} />
+              <img
+                src={item.image}
+                alt={item.title}
+                className="h-full object-cover"
+              />
               <h4 className="text-xl drop-shadow-lg font-bold absolute text-center inset-x-0 bottom-4 ">
                 {item.title}
               </h4>
